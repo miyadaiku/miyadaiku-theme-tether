@@ -3,7 +3,7 @@ from miyadaiku.core import config
 
 TETHER_MIN = 'tether.min.js'
 TETHER = 'tether.js'
-DEST_PATH = 'static/tether/'
+DEST_PATH = '/static/tether/'
 
 def load_package(site):
     f = site.config.get('/', 'tether_compressed')

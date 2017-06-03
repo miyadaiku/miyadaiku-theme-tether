@@ -24,7 +24,7 @@ def list_packages(root):
 
 setup(
     name="miyadaiku.themes.tether",
-    version="0.0.1",
+    version="0.0.3",
     author="Atsuo Ishimoto",
     license="MIT",
     classifiers=[
