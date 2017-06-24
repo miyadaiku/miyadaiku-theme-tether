@@ -6,8 +6,7 @@ TETHER = 'tether.js'
 DEST_PATH = '/static/tether/'
 
 def load_package(site):
-    f = site.config.get('/', 'tether_compressed')
-    f = config.to_bool(f)
+    f = site.config.getbool('/', 'tether_compressed')
     tether = TETHER_MIN if f else TETHER
     src_path = 'externals/js/'+tether
     

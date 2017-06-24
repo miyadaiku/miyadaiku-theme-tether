@@ -1,0 +1,12 @@
+{
+  "name": "miyadaiku.themes.jquery",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyadaiku/miyadaiku-themes-jquery.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tether": "^1.4.0"
+  }
+}
