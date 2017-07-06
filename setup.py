@@ -17,7 +17,7 @@ copy_files = [[srcdir, ['*.js'], destdir]]
 
 setup(
     name="miyadaiku.themes.tether",
-    version="0.0.3",
+    version="0.0.4",
     author="Atsuo Ishimoto",
     license="MIT",
     classifiers=[
