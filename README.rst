@@ -35,5 +35,5 @@ Add following code to your template files.
 ::
 
    <!-- include tether.js -->
-   {% include 'tether.html' %}
+   {{ tether.load_js(page) }}
 

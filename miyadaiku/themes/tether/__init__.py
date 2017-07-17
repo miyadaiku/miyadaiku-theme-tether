@@ -13,3 +13,5 @@ def load_package(site):
     content = get_content_from_package(site, __name__, src_path, DEST_PATH+tether, bin_loader)
     site.contents.add(content)
     site.config.add('/', {'tether_path': DEST_PATH+tether})
+
+    site.add_template_module('tether', 'miyadaiku.themes.tether!macros.html')
