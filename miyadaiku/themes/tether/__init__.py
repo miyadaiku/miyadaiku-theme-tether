@@ -1,4 +1,4 @@
-from miyadaiku.core.contents import get_content_from_package, bin_loader
+from miyadaiku.core.contents import bin_loader
 from miyadaiku.core import config
 
 TETHER_MIN = 'tether.min.js'
@@ -10,7 +10,7 @@ def load_package(site):
     tether = TETHER_MIN if f else TETHER
     src_path = 'externals/js/'+tether
     
-    content = get_content_from_package(site, __name__, src_path, DEST_PATH+tether, bin_loader)
+    content = bin_loader.from_package(site, __name__, src_path, DEST_PATH+tether)
     site.contents.add(content)
     site.config.add('/', {'tether_path': DEST_PATH+tether})
 
