@@ -7,6 +7,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "tether": "^1.4.0"
+    "tether": "^1.4.4"
   }
 }
