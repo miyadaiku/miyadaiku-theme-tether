@@ -2,7 +2,7 @@
 Tether files for miyadaiku static site generator
 ========================================================
 
-Provides tether files.
+Provides `tether 1.4.5 <https://www.npmjs.com/package/tether>`__ files.
 
 
 Installation
